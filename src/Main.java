@@ -38,4 +38,14 @@ class MyClass {
             System.out.println("Зеленый");
         }
     }
+
+    public static void compareNumbers() {
+        int a = 5;
+        int b = 10;
+        if (a >= b) {
+            System.out.println("а >= b");
+        } else {
+            System.out.println("а < b");
+        }
+    }
 }
